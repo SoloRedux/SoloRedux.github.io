@@ -1,127 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyek1 STr HTML 27 02 2024</title>
+    <title>Personal Portofolio</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Srisakdi&display=swap" rel="stylesheet">
-
 </head>
-
-
 <body>
     <header>
-
-        <nav>
-            <div class="logo">
-                <h4>AL</h4>
-            </div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#kemampuan teknis">Kemampuan Teknis</a></li>
-                <li><a href="#">Files</a></li>
-                <li><a href="#">Assignment</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-            <div class="menu-toggle">
-                <input type="checkbox">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
-
-    </header>
-    <div class="container">
-        <main>
-            <aside class="box flexone">
-                <article id="home">
-                    <img src="img/AisLaksana.jpg" class="image" />
-                    <h1>AIS LAKSANA </h1>
-                    <h3>MOTTO HIDUP</h3>
-                    <p>simple dan eficient</p>
-                </article>
-
-                <div class="box flextwo">
-                    <h2>Tentang Saya</h2>
-                    <article>
-                        <p>Saya adalah seorang mahasiswa Teknik Komputer di Politeknik negeri bandung. saya memilik
-                            hobi-hobi seperti olahraga, musik, dan game.</p>
-                    </article>
-                    <h2>Hobi </h2>
-                    <article id="hobi">
-                        <article>
-                            <h3>Basket </h3>
-                            <article>
-
-                            </article>
-                            <h3>Musik</h3>
-                            <article>
-
-                            </article>
-                            <h3>Game</h3>
-                            <article>
-
-                            </article>
-                        </article>
-                    </article>
-                    <h2 id="kemampuan teknis">Kemampuan Teknis </h2>
-                    <article>
-                        <h3>Capcut</h3>
-                        <article>
-                            <p>Saya cukup mahir menggunakan software ini karena, software ini sudah sering saya pakai
-                                untuk mengedit video </p>
-                        </article>
-                        <h3>Photoshop</h3>
-                        <article>
-                            <p>Saya masih menekuni software ini dan cukup mahir menggunakan software ini untuk mengedit
-                                foto</p>
-                        </article>
-                        <h3></h3>
-                    </article>
-
-                    <h2>Lesson Learn</h2>
-                    <article>
-                        <p>Saya mempelajar bagaimana membuat website profile dengan mempelajari css dan html sekaligus
-                        </p>
-                    </article>
-
-                    <h2>Harapan setelah Lulus</h2>
-                    <article>
-                        <p>Saya berharap semoga skill beserta pengetahuan yang saya cari dapat saya dapatkan dan kuasai.
-                        </p>
-                        <p>dan saya berharap bisa sukses di bidang yang saya sukai dan tekuni.</p>
-                    </article>
-                    <h2>Image Gallery</h2>
-                    <div class="image">
-                        <article id="image_1">
-
-                        </article>
-                    </div>`
-                    <h2>Maps</h2>
-                    <article>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126743.96623456074!2d107.61011176803822!3d-6.920587424460327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68dd5edaeab599%3A0x3abfaacfcc3486d!2sMap%20Rapot%20%26%20Map%20Ijazah!5e0!3m2!1sen!2sid!4v1709050598102!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </article>
-                    
+        <div class="container">
+            <nav>
+                <div class="logo" id="home">
+                    <ul>
+                        <h1><a href="#home"><span>A</span>#.</a></h1>
+                    </ul>
                 </div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#lesson-learn">lesson-learn</a></li>
+                    <li><a href="#galery">Galery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <input type="checkbox">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+            
+           
+            <div class="header-text">
+                <p>Schollar</p>
+                <h1>Hi, The<br><span>N</span>ame is <span>A</span>is</h1>
+                <h2>Hidup <span>simple</span> dan <span>effisien</span></h2>
+                <div><img src="img/1708525136617.jpg" class="imgProfile"></div>
+                
+            </div>
+        </div>
+    </header>
+
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutColl-1">
+                    <img src="img/_MG_7880.JPG" class="imgAbout">
+                </div>
+                <div class="aboutColl-2">
+                    <h1 class="subTitle"><span>About</span> Me</h1>
+                    <p>Saya adalah seorang mahasiswa Teknik Komputer di Politeknik negeri bandung, yang selalu antusias dalam melakukan hal baru terlebih yang berkaitan dengan IPTEK dan saya akan berusaha sebisa mungkin dengan simple dan effisien.</p>
 
 
-            </aside>
-        </main>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('Profil')"><span>P</span>rofil</p>
+                        <p class="tab-links" onclick="opentab('Hobi')"><span>H</span>obi</p>
+                        <p class="tab-links" onclick="opentab('Kemampuan')"><span>K</span>emampuan</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Profil">
+                        <ul>
+                            <li>Nama : Ais Laksana</li>
+                            <li>NIM : 231524035</li>
+                            <li>Motto : simple dan effisien</li>
+                            <li>TTD : Bandung 16 Agustus 2005</li>
+                            <li>Jurusan : D4-Informatika</li>
+                            <li>Alamat : jln. simpang samarang kec Bayongbong Garut</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Hobi">
+                        <ul>
+                            <li><a href="#basket">Basket</a></li>
+                            <li><a href="#musik">Musik</a></li>
+                            <li><a href="#game">game</a></li>
+                        </ul>
+                    </div>
 
-        <footer class="box">
-            <p>Ais Laksana
-                27 februari 2024
-            </p>
-        </footer>
+                    <div class="tab-contents" id="Kemampuan">
+                        <ul>
+                            <li>Photoshop</li>
+                            <li>CapCut</li>
+                            <li>C</li>
+                            <li>java</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+
+    <!-- Lesson learn -->
+    <div id="lesson-learn">
+        <div class="container">
+            <div class="row">
+                <article>
+                    <h1><span>L</span>esson <span>L</span>earn</h1>
+                    <p>Saya mempelajari bahasa baru yaitu css dan html</p> 
+                    <p>dan saya mempelajari lebih dalam mengenai git dan github</p> 
+                    <p> saya juga mempelajari mengenai web development</p>
+                </article>
+            </div>
+        </div>
     </div>
+
+    <!-- harapan -->
+    <div id="harapan">
+        <div class="container">
+            <div class="row">
+                <article>
+                    <h1><span>H</span>arapan <span>S</span>etelah <span>L</span>ulus</h1>
+                    <p>Saya berharap semoga skill beserta pengetahuan yang saya cari dapat saya dapatkan dan kuasai.</p>
+                    <p>dan saya berharap bisa sukses di bidang yang saya sukai dan tekuni.</p>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <!-- galery -->
+    <div id="galery">
+        <div class="container">
+            <div class="row">
+                <article>
+                    <h1><span>G</span>alery</h1>
+                    <div class="documentation">
+                        <h2 id="basket">BASKETBALL</h2>
+                        <div class="doc-basket" >
+                            <img src="img/galery/hobi/basket/basket-1.jpeg">
+                            <img src="img/galery/hobi/basket/basket-2.jpeg">
+                        </div>
+                        
+                        <h2 id="musik">MUSIC</h2>
+                        <div class="doc-musik">
+                            <img src="img/galery/hobi/musik/musik-1.jpeg">
+                            <img src="img/galery/hobi/musik/musik-2.jpeg" alt="">
+                        </div>
+
+                        <h2 id="game">GAME</h2>
+                        <div class="doc-game">
+                            <img src="img/galery/hobi/game/FF-Tactics.jpg">
+                            <img src="img/galery/hobi/game/shinMegaten.jpeg">
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <!-- video -->
+    <div id="video">
+        <div class="container">
+            <div class="row">
+                <article>
+                    <h1><span>V</span>ideo</h1>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/i3EFT4SZPo0?si=YDRRgAm5dwppjdiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                </article>
+            </div>
+        </div>
+    </div>
+
+    <!-- map -->
+    <div id="map">
+        <div class="container">
+            <div class="row">
+                <article>
+                    <h1>Temui Saya di:</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3957.9595298073677!2d107.83131999999999!3d-7.245446000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMTQnNDMuNiJTIDEwN8KwNDknNTIuOCJF!5e0!3m2!1sen!2sid!4v1709905549295!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </article>
+            </div>
+        </div>
+    </div>
+
+    <footer id="contact">
+        <h1>Contact me</h1>
+        <p>AIS LAKSANA</p>
+        <p>ais.laksana.tif423@polban.ac.id</p>
+        <p>thanks</p>
+    </footer>
     <script src="js/main.js"></script>
 </body>
-
-
-
-
 </html>
