@@ -47,3 +47,5 @@ Jika Anda ingin menggunakan custom domain untuk website Anda, ikuti langkah-lang
 ## Kesimpulan
 Dengan mengikuti langkah-langkah di atas, Anda dapat dengan mudah men-deploy website statis Anda menggunakan GitHub Pages. GitHub Pages merupakan solusi hosting yang cepat dan mudah, terutama untuk proyek-proyek open source, portofolio pribadi, atau halaman proyek.
 
+Link : https://soloredux.github.io/
+
