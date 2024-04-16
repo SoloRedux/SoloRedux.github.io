@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrape data</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+
+<body>
+    <!-- scrape data -->
+    <div id="Scrape-data">
+        <div class="container">
+            <div class="row">
+                <article>
+                    <h1><span>S</span>crape data</h1>
+                    <div id="data">
+                        <!-- Content will be dynamically added here -->
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            const filePath = 'scrap_data/scrap.json';
+            $.get(filePath, function (data) {
+                var str = "<table border=1>";
+                str += "<tr><td>No</td><td>Judul</td><td>Kategori</td><td>Waktu Publish</td><td>Waktu Scraping</td></tr>";
+
+                $.each(data, function (n, item) {
+                    str += "<tr>";
+                    str += "<td>" + (n + 1) + "</td>";
+                    str += "<td>" + item.Judul + "</td>";
+                    str += "<td>" + item.Kategori + "</td>";
+                    str += "<td>" + item['Waktu-Publish'] + "</td>";
+                    str += "<td>" + item['Waktu-Scrapping'] + "</td>";
+                    str += "</tr>";
+                });
+                str += "</tabel>";
+                $('#data').html(str);
+            });
+        });
+    </script>
+</body>
+
+</html>
