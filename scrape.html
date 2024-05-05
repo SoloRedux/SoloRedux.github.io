@@ -24,18 +24,18 @@
     </div>
     <script type="text/javascript">
         $(function () {
-            const filePath = 'scrap_data/scrap.json';
+            const filePath = 'scrap_data/hasil.json';
             $.get(filePath, function (data) {
                 var str = "<table border=1>";
-                str += "<tr><td>No</td><td>Judul</td><td>Kategori</td><td>Waktu Publish</td><td>Waktu Scraping</td></tr>";
+                str += "<tr><td>Rank</td><td>image</td><td>Judul</td><td>information</td><td>score</td></tr>";
 
                 $.each(data, function (n, item) {
                     str += "<tr>";
-                    str += "<td>" + (n + 1) + "</td>";
-                    str += "<td>" + item.Judul + "</td>";
-                    str += "<td>" + item.Kategori + "</td>";
-                    str += "<td>" + item['Waktu-Publish'] + "</td>";
-                    str += "<td>" + item['Waktu-Scrapping'] + "</td>";
+                    str += "<td>" + item.rank + "</td>";
+                    str += "<td>" + item.image + "</td>";
+                    str += "<td>" + item.title + "</td>";
+                    str += "<td>" + item.information + "</td>";
+                    str += "<td>" + item.score + "</td>";
                     str += "</tr>";
                 });
                 str += "</tabel>";
