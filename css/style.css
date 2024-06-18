@@ -233,6 +233,25 @@ nav ul li a:hover::after {
 }
 
 
+/* scrape data */
+
+
+#Scrape-data {
+    padding: 500px 0;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    /* Adjust the height as needed */
+}
+
+
+#Scrape-data article h1 {
+    padding-bottom: 20px;
+    font-size: 60px;
+}
+
 
 /* lesson learn */
 #lesson-learn {
@@ -268,6 +287,8 @@ nav ul li a:hover::after {
     padding-bottom: 20px;
     font-size: 60px;
 }
+
+
 
 
 /* harapan setelah lulus */
@@ -575,4 +596,23 @@ footer p {
         opacity: 0.5;
         /* transform: translateX(0); */
     }
+  }
+
+/* table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: rgb(215, 222, 38);
+    color: rgb(12, 1, 1);
+  }
+  tfoot td {
+    font-weight: bold;
   }
